@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+beautifulsoup4 = "*"
+Faker = "*"
+flask = "*"
+flask-bcrypt = '*'
+flask_cors = '*'
+Flask-Migrate = "*"
+Flask-SQLAlchemy = "*"
+flask-restful = "*"
+honcho = "*"
+importlib-resources = "*"
+ipdb = "*"
+pytest = "*"
+requests = "*"
+selenium = "*"
+sqlalchemy-serializer = "*"
+
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
